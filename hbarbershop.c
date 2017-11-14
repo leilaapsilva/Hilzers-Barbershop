@@ -17,7 +17,7 @@ pthread_t barb[3]; //três barbeiros
 
 /*declara os semáforos utilizados*/
 /*mutex protege clientes, acompanha o número de clientes na barbearia*/
-sem_t mutex, cadeira, barbeiro, cliente, dinheiro, recebimento, registradora; //declara os semáforos utilizados
+sem_t mutex, cadeira, barbeiro, cliente, dinheiro, recebimento, registradora; 
 
 //estrutura da fila
 typedef struct{
