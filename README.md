@@ -1,5 +1,5 @@
 # Hilzer's Barbershop
-Implementação em C para o problema Hilzer's Barbershop. 
+Implementação em C para o problema [Hilzer's Barbershop](https://github.com/leilaapsilva/Hilzers-Barbershop/blob/master/enunciado.md).
 
 ## Para executar o programa (no Ubuntu):
 
