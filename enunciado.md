@@ -1,4 +1,4 @@
   "Nossa barbearia possui três cadeiras, três barbeiros, e uma área de espera que pode acomodar quatro clientes em um sofá e que tem uma sala de espera para clientes adicionais (16). As leis de incêndio limitam o número de clientes na barbearia a 20.
   Um cliente não entrará na barbearia se ela está sem capacidade por estar com outros clientes. Uma vez dentro, o cliente senta no sofá ou espera em pé se o sofá está cheio. Quando um barbeiro está livre, o cliente que estava no sofá  há mais tempo é atendido e, se há clientes esperando em pé, o que está esperando há mais tempo senta no sofá. Quando um corte de cliente é finalizado, qualquer barbeiro pode receber o pagamento, mas por haver apenas uma caixa registradora, o pagamento é aceito de um cliente por vez. Os barbeiros dividem seu tempo entre cortar cabelo, aceitar pagamento e dormir na cadeira esperando por um cliente."
 
-Retirado de: ["The Little Book of Semaphores - Allen B. Downey"](http://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf)
+Retirado de: ["The Little Book of Semaphores - Allen B. Downey"](http://greenteapress.com/semaphores/LittleBookOfSemaphores.pdf) (traduzido)
