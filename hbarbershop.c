@@ -4,10 +4,10 @@
 #include<stdio.h>
 
 #define MAX 20 //Capacidade máxima da barbearia
-#define QUANT_CLIENTE 10 //quantidade de clientes "para ser atendido aquele dia"
+#define QUANT_CLIENTE 10 //quantidade de clientes a serem atendidos no dia 
 
 int clientes = 0; //inicia sem clientes
-int nro_cadeira = 3;
+int nro_cadeira = 3; //numero de cadeiras disponíveis
 int nro_assento_sofa = 4;
 int nro_barbeiros = 3;
 
@@ -51,7 +51,7 @@ void signal_Fifo(Fifo* F)
 
 /*prototipo das funções*/
 
-void sai_da_barbearia(){
+void sai_da_barbearia(){ //podem ser implementadas ações para interação 
 }
 void esperando_na_sala_de_espera(){
 }
@@ -69,10 +69,10 @@ void corta_cabelo(){
 }
 void paga(){
 }
+
 //metodo da barbearia
 void* barbearia(void *arg){		
 	int n=*(int*) arg;
-	
 	
 	//while(1)
 	//{
@@ -160,7 +160,7 @@ void* cortando(void* arg)
 main() //função main
 { 
 	int i,nCliente_id[QUANT_CLIENTE]; 
-	sem_init(&mutex,0,1); 
+	sem_init(&mutex,0,1);		//inicializa semáforos
 	sem_init(&cadeira,0,3); 
 	sem_init(&barbeiro,0,0); 
 	sem_init(&cliente,0,0); 
